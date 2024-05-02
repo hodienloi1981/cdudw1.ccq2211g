@@ -23,7 +23,7 @@ https://www.youtube.com/watch?v=a-zX_qc2S-M
 Mở cmd.exe và chạy các lệnh sau
 
 __Bước 1.__
-    ssh-keygen -t ed25519 -C "your_email@example.com"
+    ssh-keygen -t ed25519 -C "your_email@gmail.com"
 
 __Bước 2.__
 Mở file tài C:\Users\<NameUserPC>\.ssh\id_ed25519.pub
@@ -50,7 +50,13 @@ Bước 6. git push -u origin master
 __Bước 1:__ Khỏi tạo init ở local repository
 
 Mỗi project chỉ làm 1 lần đầu
-
+```
+git init
+```
+Xem trạng thái
+```
+git status
+```
 __Bước 2.__ Chuyển file từ trạng thái workspace sang staging
 
 Thêm
@@ -66,32 +72,51 @@ git rm --cached filename
 Di chuyển file
 git mv <oldfilename> <newfilename>
 ```
+Xem trạng thái
+```
+git status
+```
+
 __Bước 3.__ Chuyển file từ trạng thái workspace, staging sang local repository
 
 Chuyển từ staging sang local repository
-
+```
 git commit -m "ghi nội dung commit"
-
+```
 Chuyển từ workspace sang local repository
-
+```
 git commit -a "ghi nội dung commit"
-
+```
 __Bước 4.__ Chọn nhánh làm việc
-
+```
 git branch -M master
+```
+
+Tạo nhánh mới
+```
+git branch <branch-name>
+```
+
+Chuyển sang nhánh mới
+```
+git checkout <branch-name>
+```
+Tạo nhánh và chuyển sang nhánh mới
+```
+git checkout -b <branch-name>
+```
 
 __Bước 5.__ Liên kết local repository(PC) với remote repository(Github)
 
 Trên github.com tạo remote repository(Github)
 
-Chạy lệnh trên cmd.exe
-
+```
 git remote add origin git@github.com:hodienloi1981/cdudw1.ccq2211g.git
-
+```
 __Bước 6.__ Đưa nội dung từ local respository lên remote respository
-
+```
 git push -u origin master
-
+```
 ## 2. Repository đã tồn tại
 ```
 Bước 1. git add filename
