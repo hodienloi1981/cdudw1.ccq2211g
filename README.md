@@ -113,6 +113,15 @@ Trên github.com tạo remote repository(Github)
 ```
 git remote add origin git@github.com:hodienloi1981/cdudw1.ccq2211g.git
 ```
+Kiểm tra:
+```
+git config --list
+```
+Nếu git remote sai chúng ta có thể xóa, say đó thiết lập lại 
+```
+git remote remove origin
+```
+
 __Bước 6.__ Đưa nội dung từ local respository lên remote respository
 ```
 git push -u origin master
