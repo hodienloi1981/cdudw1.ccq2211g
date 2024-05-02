@@ -42,7 +42,7 @@ Bước 1. git init
 Bước 2. git add .
 Bước 3. git commit -m "ghi nội dung commit"
 Bước 4. git branch -M master
-Bước 5. git remote add origin git@github.com:hodienloi1981/vidu2023.git
+Bước 5. git remote add origin git@github.com:hodienloi1981/cdudw1.ccq2211g.git
 Bước 6. git push -u origin master
 ```
 ***Trong đó:***
