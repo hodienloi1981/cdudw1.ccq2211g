@@ -86,7 +86,7 @@ Trên github.com tạo remote repository(Github)
 
 Chạy lệnh trên cmd.exe
 
-git remote add origin git@github.com:hodienloi1981/vidu2023.git
+git remote add origin git@github.com:hodienloi1981/cdudw1.ccq2211g.git
 
 __Bước 6.__ Đưa nội dung từ local respository lên remote respository
 
@@ -104,7 +104,4 @@ Github.com Tạo dự án và add thành viên vào nhóm
 Tham khảo:
 https://www.youtube.com/watch?v=-Rqvfh4UoY4
 
-Github.com Tạo dự án và add thành viên vào nhóm
-Tham khảo:
-https://www.youtube.com/watch?v=-Rqvfh4UoY4
 
