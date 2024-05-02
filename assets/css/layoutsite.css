@@ -1,0 +1,25 @@
+:root
+{
+    --bg-color:#eb3e32;
+}
+
+
+.bg-mainmenu
+{
+    background-color: var(--bg-color);
+}
+.bg-mainmenu a
+{
+    color: #ffffff;
+}
+.bg-footer
+{
+    background-color: #24272e;
+    color: #ffffff;
+}
+.bg-footer a,
+.bg-footer p,
+.bg-footer span
+{
+    color: #ffffff;
+}
